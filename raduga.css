@@ -1,0 +1,6 @@
+div {
+    background: #466368;
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+    border-radius: 6px;
+    height: 120px;
+}
