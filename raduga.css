@@ -4,3 +4,10 @@ div {
     border-radius: 6px;
     height: 120px;
 }
+
+.raduga {
+    background: #466368;
+    background: linear-gradient(to right, red 0%, red 14.29%, orange 28.58%, yellow 42.87%, green 57.16%, cyan 71.45%, blue 85.74%, violet);
+    border-radius: 6px;
+    height: 120px;
+}
