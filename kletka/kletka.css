@@ -1,0 +1,19 @@
+html {
+  height: 100vh; 
+  background:  repeating-linear-gradient(to top, blue 0, blue 0.1vw, transparent 0.1vw, transparent 3vw),
+               repeating-linear-gradient(to right, blue 0, blue 0.1vw, transparent 0.1vw, transparent 3vw);
+}
+.pencil1 {
+    border: 1px solid black;
+    width: 80px;
+    background:  repeating-linear-gradient(to top, yellow, transparent 1vw, transparent 10vw)
+    
+}
+.triangle {
+  border-top: 10px solid rgba(10%, 50%, 20%, 0);
+  border-bottom: 10px solid rgba(10%, 50%, 20%, 0);
+  border-right: 10px solid rgba(10%, 50%, 20%, 0);
+  border-left: 10px solid gray;
+  width: 0;
+  height: 0;
+}
