@@ -1,19 +1,43 @@
 html {
-  height: 100vh; 
-  background:  repeating-linear-gradient(to top, blue 0, blue 0.1vw, transparent 0.1vw, transparent 3vw),
-               repeating-linear-gradient(to right, blue 0, blue 0.1vw, transparent 0.1vw, transparent 3vw);
+  height: 100vh;
+  background: repeating-linear-gradient(to top, blue 0, blue 0.1vw, transparent 0.1vw, transparent 3vw),
+  repeating-linear-gradient(to right, blue 0, blue 0.1vw, transparent 0.1vw, transparent 3vw);
 }
+
 .pencil1 {
-    border: 1px solid black;
-    width: 80px;
-    background:  repeating-linear-gradient(to top, yellow, transparent 1vw, transparent 10vw)
-    
+  border: 1px solid black;
+  width: 20vw;
+  height: 20px;
+  background: radial-gradient(yellow, gold);
+
 }
-.triangle {
-  border-top: 10px solid rgba(10%, 50%, 20%, 0);
-  border-bottom: 10px solid rgba(10%, 50%, 20%, 0);
-  border-right: 10px solid rgba(10%, 50%, 20%, 0);
-  border-left: 10px solid gray;
+
+.triangle1 {
+  border-top: 11px solid rgba(10%, 50%, 20%, 0);
+  border-bottom: 11px solid rgba(10%, 50%, 20%, 0);
+  border-right: 11px solid rgba(10%, 50%, 20%, 0);
+  border-left: 11px solid gray;
   width: 0;
   height: 0;
+  margin: -1px 20vw;
+}
+
+.pencil2 {
+  margin: 100px 0;
+  border: 1px solid black;
+  width: 156px;
+  height: 3vh;
+  background-image: linear-gradient(to top, yellow, gold, yellow,
+  gold, yellow, gold);
+
+}
+
+.triangle2 {
+  border-top: 1.9vh solid rgba(10%, 50%, 20%, 0);
+  border-bottom: 1.9vh solid rgba(10%, 50%, 20%, 0);
+  border-right: 1.9vh solid rgba(10%, 50%, 20%, 0);
+  border-left: 1.9vh solid gray;
+  width: 0;
+  height: 0;
+  margin: -2px 156px;
 }
