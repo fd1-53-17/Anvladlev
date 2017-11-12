@@ -1,0 +1,181 @@
+.ramka1 {
+ background-image: url(ramka.png);
+ height: 5vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+}
+
+.ramka2 {
+ height: 8vh;
+ width: 20vw;
+ background: url(ramka3.png);
+ background-repeat: repeat-x;
+}
+
+.ramka7 {
+ height: 8vh;
+ width: 20vw;
+ background: url(ramka3.png);
+ background-repeat: repeat-x;
+ background-position: bottom;
+}
+
+.ramka3 {
+ height: 5vh;
+ width: 5vw;
+ background-image: url(ramka4.png);
+ background-repeat: no-repeat;
+}
+
+.ramka4 {
+ height: 50vh;
+ width: 6vw;
+ background: url(ramka2.png);
+ background-repeat: repeat-y;
+}
+
+.ramka8 {
+ height: 50vh;
+ width: 6vw;
+ background: url(ramka2.png);
+ background-repeat: repeat-y;
+ background-position: right;
+}
+
+.ramka5 {
+ background-image: url(ramka1.png);
+ height: 13vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+}
+
+.ramka6 {
+ background-image: url(ramka5.png);
+ height: 13vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+}
+
+
+.ramka22 {
+ height: 8vh;
+ width: 20vw;
+ background: url(ramka3.png);
+ background-repeat: repeat-x;
+ background-size: cover 70%;
+}
+
+.ramka23 {
+ background-image: url(ramka4.png);
+ height: 5vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.ramka24 {
+ height: 50vh;
+ width: 5vw;
+ background: url(ramka2.png);
+ background-repeat: repeat-y;
+ background-size: cover;
+}
+
+.ramka25 {
+ background-image: url(ramka1.png);
+ height: 5vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.ramka26 {
+ background-image: url(ramka5.png);
+ height: 5vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.ramka27 {
+ background-image: url(ramka.png);
+ height: 5vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+
+
+.ramka32 {
+ height: 8vh;
+ width: 20vw;
+ background: url(ramka3.png);
+ background-repeat: repeat-x;
+ background-size: contain;
+}
+
+.ramka33 {
+ background-image: url(ramka4.png);
+ height: 5vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+.ramka34 {
+ height: 50vh;
+ width: 5vw;
+ background: url(ramka2.png);
+ background-repeat: repeat-y;
+ background-size: contain;
+}
+
+.ramka35 {
+ background-image: url(ramka1.png);
+ height: 5vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+.ramka36 {
+ background-image: url(ramka5.png);
+ height: 5vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+.ramka37 {
+ background-image: url(ramka.png);
+ height: 5vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+
+
+
+.ramka41 {
+ height: 2vh;
+ width: 2vw;
+ background: linear-gradient(transparent 60%, black 50%),
+ linear-gradient(90deg, black 30%, transparent 50%);
+ background-size: 10px 10px;
+}
+
+.ramka42 {
+ height: 4vh;
+ width: 30vw;
+ background: black;
+ background: linear-gradient(black 50%, white 50%);
+ background-size: 6px 10px;
+}
+
+.ramka44 {
+ height: 50vh;
+ width: 2vw;
+ background: linear-gradient(to right, black 50%, white 50%);
+ background-size: 10px 10px;
+}
