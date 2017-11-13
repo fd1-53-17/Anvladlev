@@ -1,0 +1,46 @@
+.black {
+    background: black;
+}
+
+.column>div {
+    width: 10vmin;
+    height: 10vmin;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.table {
+    float: left;
+}
+
+.table1 {
+    float: left;
+}
+
+.table2 {
+    float: left;
+}
+
+.table3 {
+    float: left;
+}
+
+.table4 {
+    float: left;
+}
+
+.table5 {
+    float: left;
+}
+
+.table6 {
+    float: left;
+}
+
+.table7 {
+    float: left;
+}
+
+.table8 {
+    float: left;
+}

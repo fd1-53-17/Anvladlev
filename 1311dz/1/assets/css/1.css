@@ -1,65 +1,51 @@
 .black {
     background: black;
-
 }
 
 .column>div {
-    width: 40px;
-    height: 40px;
+    width: 10vmin;
+    height: 10vmin;
     border: 1px solid black;
+}
 
+.table {
+    float: left;
 }
 
 .table1 {
-    margin-left: 42px;
-    margin-top: -378px;
-    float:left;
-
+    float: left;
 }
 
 .table2 {
-    margin-left: 84px;
-    margin-top: -378px;
     float: left;
-    clear: none;
-    
 }
 
 .table3 {
-    margin-left: 124px;
-    margin-top: -378px;
     float: left;
-    clear: none;
 }
 
 .table4 {
-    margin-left: 164px;
-    margin-top: -378px;
-   
-    
+    float: left;
 }
 
 .table5 {
-    margin-left: 204px;
-    margin-top: -378px;
-} 
+    float: left;
+}
 
 .table6 {
     float: left;
-     margin-left: 244px;
-    margin-top: -378px;
-    
-    
 }
 
 .table7 {
-     float: left;
-     margin-left: 284px;
-    margin-top: -378px;
+    float: left;
 }
+
 .table8 {
     float: left;
-     margin-left: 324px;
-    margin-top: -378px;
-    
+}
+.figura1 {
+    background-image: url(./chess.png);
+width: 50px;
+height:50px;
+background-position:-px;
 }
