@@ -1,0 +1,85 @@
+.row>div {
+   float: left;
+}
+
+.row {
+   clear: left;
+   width: 30px;
+}
+
+.one {
+   float: left;
+}
+
+.two {
+   float: right;
+   margin-left: 8px;
+}
+
+.three {
+   float: left;
+   margin-left: -16px;
+}
+
+.one1 {
+   float: right;
+   margin-left: 7.5px;
+}
+
+.two1 {
+   float: left;
+   margin-left: -16px;
+}
+
+.three1 {
+   float: right;
+}
+
+.one2 {
+   float: right;
+   margin-left: 9px;
+}
+
+.two2 {
+   float: left;
+
+}
+
+.three2 {
+   float: left;
+   margin-top: -18px;
+   margin-left: 0;
+}
+
+.one3 {
+   float: left;
+   margin-left: 17px;
+}
+
+.two3 {
+   float: right;
+   margin-top: -18px;
+}
+
+.three3 {
+   float: left;
+   margin-top: -18px;
+}
+
+.one4 {
+   float: right;
+   margin-left: 18px;
+}
+
+.two4 {
+   float: left;
+   margin-top: -18px;
+   margin-left: 9px;
+}
+
+.three4 {
+   float: left;
+   margin-top: -18px;
+   margin-left: -18px;
+
+}
