@@ -1,72 +1,67 @@
-.ramka1 {
- background-image: url(ramka.png);
- height: 5vh;
+.angle1 {
+ background-image: url(../img/ramka.png);
+ height: 13vh;
  width: 5vw;
  background-repeat: no-repeat;
 }
-
+.angle2 {
+ height: 5vh;
+ width: 13vw;
+ background-image: url(../img/ramka4.png);
+ background-repeat: no-repeat;
+}
+.column1 {
+ height: 50vh;
+ width: 6vw;
+ background: url(../img/ramka6.png);
+ background-repeat: repeat-y;
+} 
+.column2 {
+ height: 50vh;
+ width: 6vw;
+ background: url(../img/ramka6.png);
+ background-repeat: repeat-y;
+ background-position: 3.3vw;
+ }
 .ramka2 {
  height: 8vh;
  width: 20vw;
- background: url(ramka3.png);
+ background: url(../img/ramka7.png);
  background-repeat: repeat-x;
 }
-
 .ramka7 {
  height: 8vh;
  width: 20vw;
- background: url(ramka3.png);
+ background: url(../img/ramka7.png);
  background-repeat: repeat-x;
  background-position: bottom;
 }
-
-.ramka3 {
- height: 5vh;
- width: 5vw;
- background-image: url(ramka4.png);
- background-repeat: no-repeat;
-}
-
-.ramka4 {
- height: 50vh;
- width: 6vw;
- background: url(ramka2.png);
- background-repeat: repeat-y;
-}
-
-.ramka8 {
- height: 50vh;
- width: 6vw;
- background: url(ramka2.png);
- background-repeat: repeat-y;
- background-position: right;
-}
-
 .ramka5 {
- background-image: url(ramka1.png);
+ background-image: url(../img/ramka1.png);
  height: 13vh;
  width: 5vw;
+ background-repeat: no-repeat;
+}
+.ramka6 {
+ background-image: url(../img/ramka5.png);
+ height: 5vh;
+ width: 13vw;
  background-repeat: no-repeat;
 }
 
-.ramka6 {
- background-image: url(ramka5.png);
- height: 13vh;
- width: 5vw;
- background-repeat: no-repeat;
-}
+
 
 
 .ramka22 {
  height: 8vh;
  width: 20vw;
- background: url(ramka3.png);
+ background: url(../img/ramka3.png);
  background-repeat: repeat-x;
  background-size: cover 70%;
 }
 
 .ramka23 {
- background-image: url(ramka4.png);
+ background-image: url(../img/ramka4.png);
  height: 5vh;
  width: 5vw;
  background-repeat: no-repeat;
@@ -76,13 +71,13 @@
 .ramka24 {
  height: 50vh;
  width: 5vw;
- background: url(ramka2.png);
+ background: url(../img/ramka2.png);
  background-repeat: repeat-y;
  background-size: cover;
 }
 
 .ramka25 {
- background-image: url(ramka1.png);
+ background-image: url(../img/ramka1.png);
  height: 5vh;
  width: 5vw;
  background-repeat: no-repeat;
@@ -90,7 +85,7 @@
 }
 
 .ramka26 {
- background-image: url(ramka5.png);
+ background-image: url(../img/ramka5.png);
  height: 5vh;
  width: 5vw;
  background-repeat: no-repeat;
@@ -98,7 +93,7 @@
 }
 
 .ramka27 {
- background-image: url(ramka.png);
+ background-image: url(../img/ramka.png);
  height: 5vh;
  width: 5vw;
  background-repeat: no-repeat;
@@ -110,13 +105,13 @@
 .ramka32 {
  height: 8vh;
  width: 20vw;
- background: url(ramka3.png);
+ background: url(../img/ramka3.png);
  background-repeat: repeat-x;
  background-size: contain;
 }
 
 .ramka33 {
- background-image: url(ramka4.png);
+ background-image: url(../img/ramka4.png);
  height: 5vh;
  width: 5vw;
  background-repeat: no-repeat;
@@ -126,13 +121,13 @@
 .ramka34 {
  height: 50vh;
  width: 5vw;
- background: url(ramka2.png);
+ background: url(../img/ramka2.png);
  background-repeat: repeat-y;
  background-size: contain;
 }
 
 .ramka35 {
- background-image: url(ramka1.png);
+ background-image: url(../img/ramka1.png);
  height: 5vh;
  width: 5vw;
  background-repeat: no-repeat;
@@ -140,7 +135,7 @@
 }
 
 .ramka36 {
- background-image: url(ramka5.png);
+ background-image: url(../img/ramka5.png);
  height: 5vh;
  width: 5vw;
  background-repeat: no-repeat;
@@ -148,7 +143,7 @@
 }
 
 .ramka37 {
- background-image: url(ramka.png);
+ background-image: url(../img/ramka.png);
  height: 5vh;
  width: 5vw;
  background-repeat: no-repeat;
@@ -157,25 +152,49 @@
 
 
 
-.ramka41 {
- height: 2vh;
- width: 2vw;
- background: linear-gradient(transparent 60%, black 50%),
- linear-gradient(90deg, black 30%, transparent 50%);
- background-size: 10px 10px;
+
+.angle41 {
+  background-image: url(../img/ramka.png);
+ height: 5vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+.angle42 {
+  background-image: url(../img/ramka4.png);
+ height: 13vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+ background-size: contain;
 }
 
 .ramka42 {
- height: 4vh;
+ height: 2vh;
  width: 30vw;
  background: black;
- background: linear-gradient(black 50%, white 50%);
+ background: linear-gradient(to top, black 50%, white 50%);
  background-size: 6px 10px;
+ 
 }
 
 .ramka44 {
+  background: linear-gradient(to bottom, black 5%, white 5%);
  height: 50vh;
- width: 2vw;
- background: linear-gradient(to right, black 50%, white 50%);
- background-size: 10px 10px;
+ width: 5vw;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+.angle43 {
+  background-image: url(../img/ramka1.png);
+ height: 5vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+ background-size: contain;
+}
+.angle44 {
+  background-image: url(../img/ramka5.png);
+ height: 13vh;
+ width: 5vw;
+ background-repeat: no-repeat;
+ background-size: contain;
 }
