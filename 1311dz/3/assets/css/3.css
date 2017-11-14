@@ -7,7 +7,6 @@ span {
 ul {
     float: right;
     margin-top: 0;
-
 }
 
 li {
@@ -15,9 +14,11 @@ li {
     border: 1px solid black;
     height: 5vh;
     width: 3vw;
-    background-color: bisque;
+    background-color: #ffe4c4;
     text-align: center;
-    color: saddlebrown;
+    color: #8B4513;
+    list-style-type: none;
+
 }
 
 div {
