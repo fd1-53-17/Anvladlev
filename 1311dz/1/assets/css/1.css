@@ -1,11 +1,13 @@
 .black {
-    background: black;
+    background: #808080;
+
 }
 
 .column>div {
-    width: 10vmin;
-    height: 10vmin;
+    width: 7vmin;
+    height: 7vmin;
     border: 1px solid black;
+    text-align: center
 }
 
 .table {
@@ -43,6 +45,115 @@
 .table8 {
     float: left;
 }
-.figura1 {
-    background-image: url(../assets/img/chess.png);
+
+
+.rook1 {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 7vmin;
+    height: 7vmin;
+    background-size: calc(300vmin / 7);
+    background-position: 40% 0;
 }
+
+.horse1 {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 7vmin;
+    height: 7vmin;
+    background-size: calc(300vmin / 7);
+    background-position: 84% 0;
+}
+
+.el1 {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 7vmin;
+    height: 7vmin;
+    background-size: calc(300vmin / 7);
+    background-position: 61% 0;
+}
+
+.pesh1 {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 7vmin;
+    height: 7vmin;
+    background-size: calc(300vmin / 7);
+    background-position: 105% 0;
+}
+
+.king1 {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 7vmin;
+    height: 7vmin;
+    background-size: calc(300vmin / 7);
+    background-position: 19% 0;
+}
+
+.queen1 {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 7vmin;
+    height: 7vmin;
+    background-size: calc(300vmin / 7);
+    background-position: 0% 0;
+}
+
+.pesh2 {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 7vmin;
+    height: 7vmin;
+    background-size: calc(300vmin / 7);
+    background-position: 105% 105%;
+}
+
+.rook2 {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 7vmin;
+    height: 7vmin;
+    background-size: calc(300vmin / 7);
+    background-position: 40% 105%;
+}
+
+.horse2 {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 7vmin;
+    height: 7vmin;
+    background-size: calc(300vmin / 7);
+    background-position: 84% 105%;
+}
+
+.el2 {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 7vmin;
+    height: 7vmin;
+    background-size: calc(300vmin / 7);
+    background-position: 61% 105%;
+}
+
+
+.king2 {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 7vmin;
+    height: 7vmin;
+    background-size: calc(300vmin / 7);
+    background-position: 19% 105%;
+}
+
+.queen2 {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 7vmin;
+    height: 7vmin;
+    background-size: calc(300vmin / 7);
+    background-position: 0% 105%;
+}
+
+
