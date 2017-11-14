@@ -3,3 +3,10 @@
     width: 45px;
     height: 45px;
 }
+.horse{
+    background-image: url('assets/img/chess.png');
+            background-repeate: no-repeate;
+            background-position: ;
+            width: 45px;
+            height: 45px;
+}
