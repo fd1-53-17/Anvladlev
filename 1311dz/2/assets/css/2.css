@@ -5,11 +5,29 @@
 .column>div {
     width: 7vmin;
     height: 7vmin;
-    border: 1px solid black;
+    border: solid 1px black;
     display: inline-block;
-    
+    text-align-last: center;
+    margin-right: -5px;
+    font-weight: bold;
+    font-size: 5vmin;
 }
 
+.column1>div {
+    margin-top: -5px;
+    width: 7vmin;
+    height: 7vmin;
+    border: 1px solid black;
+    display: inline-block;
+    text-align-last: center;
+    margin-right: -5px;
+    font-weight: bold;
+    font-size: 5vmin;
+}
+
+.hos {
+    vertical-align: top;
+}
 
 .rook1 {
     background-image: url(../img/chess.png);

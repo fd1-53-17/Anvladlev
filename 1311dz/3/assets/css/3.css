@@ -2,6 +2,7 @@ span {
     float: left;
     width: 30vw;
     margin-top: 2px;
+    font-size: 5vmin;
 }
 
 ul {
@@ -18,7 +19,7 @@ li {
     text-align: center;
     color: #8B4513;
     list-style-type: none;
-
+    font-size: 5vmin;
 }
 
 div {
