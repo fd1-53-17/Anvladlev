@@ -44,5 +44,5 @@
     float: left;
 }
 .figura1 {
-    background-image: url('assets/img/chess.png');
+    background-image: url(../assets/img/chess.png);
 }
