@@ -1,7 +1,7 @@
 .three {
     width: 140px;
     height: 190px;
-    background-image: url(assets/img/cards2.png);
+    background-image: url(../img/cards2.png);
     background-position: -290px -195px;
 
 }
@@ -9,13 +9,13 @@
 .seven {
     width: 140px;
     height: 190px;
-    background-image: url(assets/img/cards2.png);
+    background-image: url(../img/cards2.png);
     background-position: -145px -970px;
 }
 
 .tuz {
     width: 140px;
     height: 190px;
-    background-image: url(assets/img/cards2.png);
+    background-image: url(../cards2.png);
     background-position: -430px -2330px;
 }
