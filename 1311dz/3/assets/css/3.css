@@ -1,0 +1,29 @@
+span {
+    float: left;
+    width: 30vw;
+    margin-top: 2px;
+    font-size: 5vmin;
+}
+
+ul {
+    float: right;
+    margin-top: 0;
+}
+
+li {
+    display: inline-block;
+    border: 1px solid black;
+    height: 5vh;
+    width: 3vw;
+    background-color: #ffe4c4;
+    text-align: center;
+    color: #8B4513;
+    list-style-type: none;
+    font-size: 5vmin;
+}
+
+div {
+    border: 1px solid black;
+    height: 6vh;
+    width: 60vw;
+}
