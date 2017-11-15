@@ -35,7 +35,7 @@ header {
 }
 
 .line {
-    width: 822px;
+    width: 815px;
     border: 1px solid black;
 }
 
@@ -87,11 +87,11 @@ ul {
 ul>li {
     float: left;
     list-style: none;
-    width: 113px;
-    height: 127px;
+    width: 110px;
+    height: 125px;
     background: #d3d3d3;
     margin-top: 15px;
-    margin-right: 18px;
+    margin-right: 16px;
 }
 
 
@@ -100,7 +100,8 @@ ul>li {
     width: 312px;
     height: 170px;
     background: #d3d3d3;
-    margin-top: 28px;
+    margin-top: 18px;
+    clear: both;
 }
 
 .content-bottom2 {
@@ -108,7 +109,7 @@ ul>li {
     width: 312px;
     height: 170px;
     background: #d3d3d3;
-    margin-top: 28px;
+    margin-top: 18px;
     margin-left: 15px;
 }
 
@@ -157,3 +158,4 @@ footer {
     margin-top: 18px;
 
 }
+
