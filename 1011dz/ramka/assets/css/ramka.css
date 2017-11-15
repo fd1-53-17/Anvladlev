@@ -4,31 +4,36 @@
  width: 5vw;
  background-repeat: no-repeat;
 }
+
 .angle2 {
  height: 5vh;
  width: 13vw;
  background-image: url(../img/ramka4.png);
  background-repeat: no-repeat;
 }
+
 .column1 {
  height: 50vh;
  width: 6vw;
  background: url(../img/ramka6.png);
  background-repeat: repeat-y;
-} 
+}
+
 .column2 {
  height: 50vh;
  width: 6vw;
  background: url(../img/ramka6.png);
  background-repeat: repeat-y;
  background-position: 3.3vw;
- }
+}
+
 .ramka2 {
  height: 8vh;
  width: 20vw;
  background: url(../img/ramka7.png);
  background-repeat: repeat-x;
 }
+
 .ramka7 {
  height: 8vh;
  width: 20vw;
@@ -36,12 +41,14 @@
  background-repeat: repeat-x;
  background-position: bottom;
 }
+
 .ramka5 {
  background-image: url(../img/ramka1.png);
  height: 13vh;
  width: 5vw;
  background-repeat: no-repeat;
 }
+
 .ramka6 {
  background-image: url(../img/ramka5.png);
  height: 5vh;
@@ -84,8 +91,9 @@
  background: url(../img/ramka2.png);
  background-repeat: repeat-y;
  background-size: cover 70%;
- 
+
 }
+
 .ramka2-right {
  height: 50vh;
  width: 5vw;
@@ -93,7 +101,7 @@
  background-repeat: repeat-y;
  background-size: cover 50%;
  background-position: right;
- 
+
 }
 
 .ramka25 {
@@ -129,6 +137,7 @@
  background-repeat: repeat-x;
  background-size: contain 50%;
 }
+
 .ramka3-bottom {
  height: 8vh;
  width: 20vw;
@@ -153,6 +162,7 @@
  background-repeat: repeat-y;
  background-size: contain 50%;
 }
+
 .ramka3-right {
  height: 50vh;
  width: 5vw;
@@ -190,14 +200,15 @@
 
 
 .angle41 {
-  background-image: url(../img/ramka.png);
+ background-image: url(../img/ramka.png);
  height: 5vh;
  width: 5vw;
  background-repeat: no-repeat;
  background-size: contain;
 }
+
 .angle42 {
-  background-image: url(../img/ramka4.png);
+ background-image: url(../img/ramka4.png);
  height: 5vh;
  width: 5vw;
  background-repeat: no-repeat;
@@ -208,40 +219,40 @@
  height: 2vh;
  width: 30vw;
  background: black;
- 
- background: linear-gradient(to top, black 0, black 5px, white 5px, white 8px,  black 10px, black 14px, white 14px, white 21px, black 21px, black 26px, white 26px, white 30px, black 30px, black 36px,transparent 36px);
+
+ background: linear-gradient(to top, black 0, black 5px, white 5px, white 8px, black 10px, black 14px, white 14px, white 21px, black 21px, black 26px, white 26px, white 30px, black 30px, black 36px, transparent 36px);
  background-size: 6px 10px;
- 
+
 }
+
 .ramka4-bottom {
  height: 2vh;
  width: 30vw;
  background: black;
  background-position: bottom;
- background: linear-gradient(to bottom, black 0, black 5px, white 5px, white 8px,  black 10px, black 14px, white 14px, white 21px, black 21px, black 26px, white 26px, white 30px, black 30px, black 36px,transparent 36px);
+ background: linear-gradient(to bottom, black 0, black 5px, white 5px, white 8px, black 10px, black 14px, white 14px, white 21px, black 21px, black 26px, white 26px, white 30px, black 30px, black 36px, transparent 36px);
  background-size: 6px 10px;
- 
+
 }
-div {
- margin-left: -50px;
- margin-top: -200px;
-}
+
 .ramka44 {
- background: linear-gradient(to right, black 0, black 5px, white 5px, white 8px,  black 10px, black 14px, white 14px, white 21px, black 21px, black 26px, white 26px, white 30px, black 30px, black 36px, transparent 36px);
+ background: linear-gradient(to right, black 0, black 5px, white 5px, white 8px, black 10px, black 14px, white 14px, white 21px, black 21px, black 26px, white 26px, white 30px, black 30px, black 36px, transparent 36px);
  height: 50vh;
  width: 5vw;
  background-repeat: no-repeat;
  background-size: contain;
 }
+
 .angle43 {
-  background-image: url(../img/ramka1.png);
+ background-image: url(../img/ramka1.png);
  height: 5vh;
  width: 5vw;
  background-repeat: no-repeat;
  background-size: contain;
 }
+
 .angle44 {
-  background-image: url(../img/ramka5.png);
+ background-image: url(../img/ramka5.png);
  height: 5vh;
  width: 5vw;
  background-repeat: no-repeat;
