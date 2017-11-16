@@ -1,6 +1,6 @@
 table {
     border: 0;
-    width: 750px;
+    width: 50%;
     border-collapse: collapse;
 }
 
@@ -44,14 +44,17 @@ td {
 }
 
 p {
-    margin-left: 15px;
+    margin-left: 10px;
 }
 
 .text-football {
     text-align: left;
-    background: url(assets/img/football1.png) repeat-y;
+    background-image: url(../assets/img/football1.png);
+    background-position: right;
+    background-repeat: repeat-y;
     font-size: large;
     margin: 10px 20px;
+   
 }
 
 img {
@@ -60,3 +63,4 @@ img {
     width: 198px;
     margin: 10px 20px;
 }
+

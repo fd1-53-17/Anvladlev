@@ -1,0 +1,98 @@
+wrapper {
+    width: 55vw;
+    height: 60vh;
+    display: inline-block;
+
+}
+
+header {
+    height: 7vh;
+    width: 50vw;
+    background: #add8e6;
+
+}
+
+aside {
+    width: 165px;
+    height: 318px;
+    float: left;
+    background: #f0e68c;
+    display: inline-block;
+}
+
+.content {
+    width: 37vw;
+    height: 50vh;
+    float: left;
+
+}
+
+footer {
+    width: 50vw;
+    height: 8vh;
+    background: #add8e6;
+    float: left;
+    display: inline-block;
+}
+
+.blue-head {
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, verdana;
+    color: #191970;
+    font-stretch: expanded;
+    font-size: larger;
+
+}
+
+.hello {
+    margin-top: 0%;
+}
+
+.blue-footer {
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, verdana;
+    color: #191970;
+    font-stretch: expanded;
+    font-size: larger;
+    display: inline-block;
+}
+
+.left {
+    display: inline-block
+}
+
+.football-title {
+    float: left;
+    width: 40vw;
+    height: 8vh;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.football {
+    float: left;
+    width: 38vw;
+    height: 42vh;
+    background-image: url(assets/img/football1.png);
+    background-position: right;
+    background-repeat: repeat-y;
+    display: inline-block;
+}
+
+.finish {
+    margin-top: 2%;
+}
+
+p {
+    padding: 10px;
+}
+
+img {
+    float: left;
+    padding: 0 20px 0 20px;
+    width: 14vw;
+    height: 20vh;
+}
