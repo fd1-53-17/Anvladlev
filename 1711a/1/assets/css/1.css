@@ -1,0 +1,177 @@
+.wrapper {
+    height: 1200px;
+    width: 660px;
+    position: relative;
+
+}
+
+header {
+    padding: 50px;
+    width: 560px;
+    background: #f5f5f5;
+    position: relative;
+}
+
+.one {
+    width: 120px;
+    height: 70px;
+    background: #696969;
+    position: absolute;
+    top: 10px;
+    left: 0px;
+}
+
+.two {
+    width: 200px;
+    height: 70px;
+    background: #696969;
+    position: absolute;
+    top: 10px;
+    left: 140px;
+}
+
+.three {
+    width: 310px;
+    height: 70px;
+    background: #696969;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+main {
+    position: relative;
+    background: #f5f5f5;
+    padding-top: 520px;
+    width: 660px;
+}
+
+aside {
+    position: absolute;
+    background: #f5f5f5;
+    width: 150px;
+    height: 220px;
+    padding-top: 310px;
+    top: 0;
+    left: 0;
+
+}
+
+.four {
+    position: absolute;
+    background: #696969;
+    width: 140px;
+    height: 220px;
+    top: 0px;
+
+
+}
+
+.seven {
+    position: absolute;
+    bottom: 0px;
+    background: #a9a9a9;
+    width: 140px;
+    height: 120px;
+}
+
+article {
+    position: absolute;
+    background: #f5f5f5;
+    width: 510px;
+    padding-top: 530px;
+    top: 0;
+    left: 150px;
+}
+
+.five {
+    position: absolute;
+    background: #a9a9a9;
+    width: 510px;
+    height: 120px;
+    top: 0px;
+}
+
+ul {
+    position: absolute;
+    top: 130px;
+    padding-left: 0;
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    background: #a9a9a9;
+    width: 90px;
+    height: 110px;
+    margin-left: 8.5px;
+    margin-top: 0px;
+}
+
+.eight {
+    width: 240px;
+    height: 140px;
+    background: #a9a9a9;
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+.nine {
+    width: 240px;
+    height: 140px;
+    background: #a9a9a9;
+    bottom: 0px;
+    right: 0px;
+    position: absolute;
+
+}
+
+footer {
+    padding: 60px;
+    width: 540px;
+    background: #f5f5f5;
+    position: relative;
+
+}
+
+.ten {
+    width: 200px;
+    height: 90px;
+    background: #696969;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+
+
+
+}
+
+.eleven {
+    width: 200px;
+    height: 90px;
+    background: #696969;
+    position: absolute;
+    bottom: 0px;
+    left: 220px;
+
+
+}
+
+.twelve {
+    width: 200px;
+    height: 50px;
+    background: #696969;
+    position: absolute;
+    top: 10px;
+    right: 0px;
+}
+
+.thirteen {
+    width: 200px;
+    height: 50px;
+    background: #696969;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
