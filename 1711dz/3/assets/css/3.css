@@ -1,0 +1,80 @@
+div {
+    position: absolute;
+}
+
+.row1 {
+    top: 0;
+}
+
+.left1 {
+    left: 10px;
+}
+
+.right1 {
+    left: 20px;
+}
+
+.row2 {
+    top: 25px;
+
+}
+
+.left2 {
+    left: 10px;
+
+}
+
+.right2 {
+    left: 20px;
+}
+
+.row3 {
+    top: 50px;
+}
+
+.left3 {
+    left: 20px;
+
+}
+
+.right3 {
+    left: 10px;
+}
+
+.row4 {
+    top: 75px;
+}
+
+.right4 {
+    left: 20px;
+}
+
+.left4 {
+    left: 10px;
+}
+
+.row5 {
+    top: 100px;
+}
+
+.left5 {
+    left: 10px;
+}
+
+.right5 {
+    left: 20px;
+}
+
+.row6 {
+    top: 125px;
+}
+
+.left6 {
+    left: 10px;
+}
+
+.right6 {
+    left: 20px;
+
+}
+
