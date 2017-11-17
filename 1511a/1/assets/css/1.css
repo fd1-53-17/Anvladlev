@@ -1,0 +1,161 @@
+wrapper {
+    width: 815px;
+    height: 1030px;
+}
+
+header {
+    display: block;
+    width: 815px;
+    height: 150px;
+}
+
+.left {
+    margin-top: 28px;
+    float: left;
+    width: 108px;
+    height: 92px;
+    background: #a9a9a9;
+}
+
+.center {
+    background: #a9a9a9;
+    width: 236px;
+    height: 92px;
+    float: left;
+    margin-top: 28px;
+    margin-left: 20.25px;
+}
+
+.right {
+    margin-top: 28px;
+    float: right;
+    width: 439px;
+    height: 92px;
+    background: #a9a9a9;
+}
+
+.line {
+    width: 815px;
+    border: 1px solid black;
+}
+
+main {
+    width: 815px;
+    height: 695px;
+}
+
+aside {
+    float: left;
+    width: 176px;
+    height: 695px;
+
+}
+
+.top {
+    margin-top: 28px;
+    width: 156px;
+    height: 282px;
+    background: #a9a9a9;
+}
+
+.bottom {
+    margin-top: 256px;
+    width: 156px;
+    height: 113px;
+    background: #a9a9a9;
+}
+
+content {
+    width: 639px;
+    height: 695px;
+    float: left;
+}
+
+.content-center {
+    margin-top: 28px;
+    float: left;
+    width: 639px;
+    height: 182px;
+    background: #d3d3d3;
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0;
+}
+
+ul>li {
+    float: left;
+    list-style: none;
+    width: 110px;
+    height: 125px;
+    background: #d3d3d3;
+    margin-top: 15px;
+    margin-right: 16px;
+}
+
+
+.content-bottom1 {
+    float: left;
+    width: 312px;
+    height: 170px;
+    background: #d3d3d3;
+    margin-top: 18px;
+    clear: both;
+}
+
+.content-bottom2 {
+    float: left;
+    width: 312px;
+    height: 170px;
+    background: #d3d3d3;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+
+footer {
+    width: 815px;
+    height: 185px;
+}
+
+.left10 {
+    margin-top: 28px;
+    float: left;
+    width: 255px;
+    height: 155px;
+    background: #a9a9a9;
+}
+
+.left11 {
+    float: left;
+    width: 260px;
+    height: 155px;
+    margin-left: 18px;
+    margin-top: 28px;
+    background: #a9a9a9;
+}
+
+.footer-right {
+    width: 260px;
+    height: 70px;
+    float: right;
+}
+
+.right12 {
+    margin-top: 28px;
+    float: right;
+    width: 260px;
+    height: 70px;
+    background: #a9a9a9;
+
+}
+
+.right13 {
+    float: right;
+    width: 260px;
+    height: 70px;
+    background: #a9a9a9;
+    margin-top: 18px;
+
+}
+
