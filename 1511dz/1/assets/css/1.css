@@ -1,0 +1,68 @@
+table {
+    border: 0;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+td {
+    width: 750px;
+    border: 0;
+}
+
+.list {
+    width: 185px;
+    background: #f0e68c;
+}
+
+.football {
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    background-image: url(../img/football1.png);
+    background-position: right;
+    background-repeat: repeat-y;
+
+}
+
+.blue1 {
+    background: #add8e6;
+    text-align: center;
+    vertical-align: middle;
+    height: 42.5px;
+    font-family: Arial, verdana;
+    color: #191970;
+    font-stretch: expanded;
+    font-size: larger;
+}
+
+.blue2 {
+    background: #add8e6;
+    text-align: center;
+    vertical-align: middle;
+    height: 57px;
+    font-family: Arial, verdana;
+    color: #191970;
+    font-stretch: expanded;
+    font-size: larger;
+}
+
+p {
+    margin-left: 10px;
+}
+
+.text-football {
+    text-align: left;
+    background-image: url(../img/football1.png);
+    background-position: top right;
+    background-repeat: repeat-y;
+    font-size: large;
+    margin: 10px 20px;
+
+}
+
+img {
+    float: left;
+    height: 127px;
+    width: 198px;
+    margin: 10px 20px;
+}

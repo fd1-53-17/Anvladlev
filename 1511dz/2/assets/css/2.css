@@ -1,0 +1,88 @@
+wrapper {
+    width: 750px;
+    height: 425px;
+}
+
+header {
+    height: 42.5px;
+    width: 750px;
+    background: #add8e6;
+}
+
+aside {
+    width: 185px;
+    height: 325px;
+    float: left;
+    background: #f0e68c;
+}
+
+.content {
+    width: 565px;
+    height: 325px;
+    float: left;
+    background-image: url(../img/football1.png);
+    background-position: right center;
+    background-repeat: repeat-y;
+
+}
+
+footer {
+    width: 750px;
+    height: 57px;
+    background: #add8e6;
+    float: left;
+}
+
+.blue-head {
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, verdana;
+    color: #191970;
+    font-stretch: expanded;
+    font-size: larger;
+}
+
+.hello {
+    margin-top: 0%;
+}
+
+.blue-footer {
+    text-align: center;
+    vertical-align: middle;
+    font-family: Arial, verdana;
+    color: #191970;
+    font-stretch: expanded;
+    font-size: larger;
+}
+
+.football-title {
+    float: left;
+    width: 565px;
+    height: 55px;
+    text-align: center;
+    vertical-align: middle;
+
+    margin-top: 5px;
+}
+
+.football {
+    float: left;
+    width: 565px;
+    height: 300px;
+
+    margin-top: -30px;
+}
+
+.finish {
+    margin-top: 2%;
+}
+
+p {
+    padding: 10px;
+}
+
+img {
+    float: left;
+    padding: 0 20px 0 20px;
+    margin-top: 15px;
+}
