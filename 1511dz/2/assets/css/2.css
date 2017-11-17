@@ -20,7 +20,10 @@ aside {
     width: 565px;
     height: 325px;
     float: left;
-    
+    background-image: url(../img/football1.png);
+    background-position: right center;
+    background-repeat: repeat-y;
+
 }
 
 footer {
@@ -58,15 +61,16 @@ footer {
     height: 55px;
     text-align: center;
     vertical-align: middle;
+
+    margin-top: 5px;
 }
 
 .football {
     float: left;
     width: 565px;
-    height: 240px;
-    background-image: url(../assets/img/football1.png);
-    background-position: right;
-    background-repeat: repeat-y;
+    height: 300px;
+
+    margin-top: -30px;
 }
 
 .finish {
@@ -80,4 +84,5 @@ p {
 img {
     float: left;
     padding: 0 20px 0 20px;
+    margin-top: 15px;
 }

@@ -18,6 +18,9 @@ td {
     height: 40px;
     text-align: center;
     vertical-align: middle;
+    background-image: url(../img/football1.png);
+    background-position: right;
+    background-repeat: repeat-y;
 
 }
 
@@ -49,12 +52,12 @@ p {
 
 .text-football {
     text-align: left;
-    background-image: url(../assets/img/football1.png);
-    background-position: right;
+    background-image: url(../img/football1.png);
+    background-position: top right;
     background-repeat: repeat-y;
     font-size: large;
     margin: 10px 20px;
-   
+
 }
 
 img {
@@ -63,4 +66,3 @@ img {
     width: 198px;
     margin: 10px 20px;
 }
-
