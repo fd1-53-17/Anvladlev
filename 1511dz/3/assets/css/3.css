@@ -1,5 +1,5 @@
 wrapper {
-    width: 60vw;
+    width: calc(55vw + 165px);
     height: 60vh;
 }
 
@@ -47,7 +47,7 @@ aside {
 .content {
     display: inline-block;
     float: left;
-    width: 37vw;
+    width: calc(48vw - 165px);
     height: 330px;
     margin-left: 1%;
     background-image: url(../img/football1.png);
@@ -70,7 +70,7 @@ img {
 }
 
 .football-title {
-    width: 37vw;
+    width: calc(48vw - 165px);
     height: 8vh;
     text-align: center;
     vertical-align: middle;
@@ -79,7 +79,7 @@ img {
 
 .football {
     float: left;
-    width: 37vw;
+    width: calc(48vw - 165px);
     height: 42vh;
     display: inline-block;
     font-size: 2.7vmin;
