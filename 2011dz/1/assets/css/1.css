@@ -245,42 +245,16 @@ div:nth-of-type(n+57):not(:nth-of-type(n+58)) {
     margin-top: -80%;
 }
 
-div:nth-of-type(even):nth-of-type(n+1):not(:nth-of-type(n+9)) {
-    background-color: grey;
-
-}
-
+div:nth-of-type(even):nth-of-type(n+1):not(:nth-of-type(n+9)),
+div:nth-of-type(odd):nth-of-type(n+57):not(:nth-of-type(n+64)),
+div:nth-of-type(even):nth-of-type(n+49):not(:nth-of-type(n+57)),
+div:nth-of-type(odd):nth-of-type(n+41):not(:nth-of-type(n+49)),
+div:nth-of-type(even):nth-of-type(n+33):not(:nth-of-type(n+41)),
+div:nth-of-type(even):nth-of-type(n+33):not(:nth-of-type(n+41)),
+div:nth-of-type(odd):nth-of-type(n+25):not(:nth-of-type(n+33)),
+div:nth-of-type(odd):nth-of-type(n+25):not(:nth-of-type(n+33)),
+div:nth-of-type(even):nth-of-type(n+17):not(:nth-of-type(n+25)),
 div:nth-of-type(odd):nth-of-type(n+9):not(:nth-of-type(n+17)) {
-    background-color: grey;
-
-}
-
-div:nth-of-type(even):nth-of-type(n+17):not(:nth-of-type(n+25)) {
-    background-color: grey;
-
-}
-
-div:nth-of-type(odd):nth-of-type(n+25):not(:nth-of-type(n+33)) {
-    background-color: grey;
-
-}
-
-div:nth-of-type(even):nth-of-type(n+33):not(:nth-of-type(n+41)) {
-    background-color: grey;
-
-}
-
-div:nth-of-type(odd):nth-of-type(n+41):not(:nth-of-type(n+49)) {
-    background-color: grey;
-
-}
-
-div:nth-of-type(even):nth-of-type(n+49):not(:nth-of-type(n+57)) {
-    background-color: grey;
-
-}
-
-div:nth-of-type(odd):nth-of-type(n+57):not(:nth-of-type(n+64)) {
     background-color: grey;
 
 }
