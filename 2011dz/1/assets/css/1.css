@@ -1,0 +1,306 @@
+.chessTable {
+    width: 100vmin;
+    height: 100vmin;
+}
+
+.chessTable>div {
+    outline: 1px solid blue;
+    width: 10%;
+    height: 10%;
+}
+
+div:nth-of-type(n+11):not(:nth-of-type(n+21)) {
+    margin-left: 10%;
+
+}
+
+
+div:nth-of-type(n+11):not(:nth-of-type(n+12)) {
+    margin-left: 10%;
+    margin-top: -100%;
+}
+
+
+
+div:nth-of-type(n+12):not(:nth-of-type(n+13)) {
+    margin-left: 10%;
+    margin-top: 0%;
+
+}
+
+div:nth-of-type(n+21):not(:nth-of-type(n+31)) {
+    margin-left: 20%;
+
+}
+
+
+div:nth-of-type(n+21):not(:nth-of-type(n+22)) {
+    margin-left: 20%;
+    margin-top: -100%;
+
+}
+
+div:nth-of-type(n+31):not(:nth-of-type(n+41)) {
+    margin-left: 30%;
+}
+
+div:nth-of-type(n+31):not(:nth-of-type(n+32)) {
+    margin-left: 30%;
+    margin-top: -100%;
+
+}
+
+div:nth-of-type(n+41):not(:nth-of-type(n+51)) {
+    margin-left: 40%;
+
+}
+
+div:nth-of-type(n+41):not(:nth-of-type(n+42)) {
+    margin-left: 40%;
+    margin-top: -100%;
+
+}
+
+div:nth-of-type(n+51):not(:nth-of-type(n+61)) {
+    margin-left: 50%;
+
+}
+
+div:nth-of-type(n+51):not(:nth-of-type(n+52)) {
+    margin-left: 50%;
+    margin-top: -100%;
+
+}
+
+div:nth-of-type(n+61):not(:nth-of-type(n+65)) {
+    margin-left: 60%;
+
+}
+
+div:nth-of-type(n+61):not(:nth-of-type(n+62)) {
+    margin-left: 60%;
+    margin-top: -100%;
+}
+
+
+div {
+    counter-reset: number;
+}
+
+div:nth-of-type(n+2):not(:nth-of-type(n+10))::before {
+    counter-increment: number;
+    content: counter(number)" ";
+}
+
+
+div:nth-of-type(odd):nth-of-type(n+12):not(:nth-of-type(n+20)) {
+    background-color: grey;
+
+}
+
+div:nth-of-type(even):nth-of-type(n+22):not(:nth-of-type(n+30)) {
+    background-color: grey;
+
+}
+
+div:nth-of-type(odd):nth-of-type(n+32):not(:nth-of-type(n+40)) {
+    background-color: grey;
+
+}
+
+div:nth-of-type(even):nth-of-type(n+42):not(:nth-of-type(n+50)) {
+    background-color: grey;
+
+}
+
+div:nth-of-type(odd):nth-of-type(n+52):not(:nth-of-type(n+60)) {
+    background-color: grey;
+
+}
+
+div:nth-of-type(even):nth-of-type(n+62):not(:nth-of-type(n+65)) {
+    background-color: grey;
+
+}
+
+div:nth-of-type(11)::before {
+    content: "a";
+}
+
+div:nth-of-type(21)::before {
+    content: "b";
+}
+
+div:nth-of-type(31)::before {
+    content: "c";
+}
+
+div:nth-of-type(41)::before {
+    content: "d";
+}
+
+div:nth-of-type(51)::before {
+    content: "e";
+}
+
+div:nth-of-type(61)::before {
+    content: "f";
+}
+
+div:nth-of-type(20)::before {
+    content: "a";
+}
+
+div:nth-of-type(30)::before {
+    content: "b";
+}
+
+div:nth-of-type(40)::before {
+    content: "c";
+}
+
+div:nth-of-type(50)::before {
+    content: "d";
+}
+
+div:nth-of-type(60)::before {
+    content: "e";
+}
+
+div:nth-of-type(29) {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size: calc(300vmin / 7);
+    background-position: 88% 170%;
+}
+
+div:nth-of-type(12) {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size: calc(300vmin / 7);
+    background-position: 40% -50%;
+}
+
+div:nth-of-type(10n+3):not(:nth-of-type(3)):not(:nth-of-type(64)) {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size: calc(300vmin / 7);
+    background-position: 110% -60%;
+}
+
+
+div:nth-of-type(19) {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size: calc(300vmin / 7);
+    background-position: 40% 160%;
+}
+
+div:nth-of-type(10n+8):not(:nth-of-type(8)):not(:nth-of-type(64)) {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size: calc(300vmin / 7);
+    background-position: 110% 170%;
+}
+
+
+div:nth-of-type(39) {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size: calc(300vmin / 7);
+    background-position: 63% 160%;
+}
+
+
+div:nth-of-type(49) {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size: calc(300vmin / 7);
+    background-position: 17% 160%;
+}
+
+div:nth-of-type(59) {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size: calc(300vmin / 7);
+    background-position: -8% 160%;
+}
+
+
+div:nth-of-type(22) {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size: calc(300vmin / 7);
+    background-position: 85% -50%;
+}
+
+div:nth-of-type(32) {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size: calc(300vmin / 7);
+    background-position: 61% -60%;
+}
+
+div:nth-of-type(62) {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size: calc(300vmin / 7);
+    background-position: 61% -60%;
+}
+
+
+div:nth-of-type(42) {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size: calc(300vmin / 7);
+    background-position: 16% -60%;
+}
+
+div:nth-of-type(52) {
+    background-image: url(../img/chess.png);
+    background-repeat: no-repeat;
+    width: 10%;
+    height: 10%;
+    background-size: calc(300vmin / 7);
+    background-position: -7% -60%;
+}
+
+
+
+
+
+
+div:nth-of-type(n+11):not(:nth-of-type(n+51))::after {
+    display: block;
+    outline: 1px solid;
+    content: '';
+    width: 10vmin;
+    height: 10vmin;
+    position: absolute;
+    left: 62.5vmin;
+    top: 52vmin;
+}
