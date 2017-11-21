@@ -9,6 +9,17 @@
     height: 10%;
 }
 
+div:nth-of-type(n+11):not(:nth-of-type(n+46)):before {
+    display: block;
+    outline: 1px solid red;
+    content: '';
+    width: 10vmin;
+    height: 10vmin;
+    position: absolute;
+    left: 62.5vmin;
+    top: 42.5vmin;
+}
+
 div:nth-of-type(n+11):not(:nth-of-type(n+21)) {
     margin-left: 10%;
 
@@ -89,7 +100,9 @@ div {
 
 div:nth-of-type(n+2):not(:nth-of-type(n+10))::before {
     counter-increment: number;
-    content: counter(number)" ";
+    content: counter(number);
+    display: inline-block;
+
 }
 
 
@@ -123,48 +136,59 @@ div:nth-of-type(even):nth-of-type(n+62):not(:nth-of-type(n+65)) {
 
 }
 
-div:nth-of-type(11)::before {
+div:nth-of-type(11)::after {
     content: "a";
+    font-size: larger;
 }
 
-div:nth-of-type(21)::before {
+div:nth-of-type(21)::after {
     content: "b";
+    font-size: larger;
 }
 
-div:nth-of-type(31)::before {
+div:nth-of-type(31)::after {
     content: "c";
+    font-size: larger;
 }
 
-div:nth-of-type(41)::before {
+div:nth-of-type(41)::after {
     content: "d";
+    font-size: larger;
 }
 
-div:nth-of-type(51)::before {
+div:nth-of-type(51)::after {
     content: "e";
+    font-size: larger;
 }
 
-div:nth-of-type(61)::before {
+div:nth-of-type(61)::after {
     content: "f";
+    font-size: larger;
 }
 
-div:nth-of-type(20)::before {
+div:nth-of-type(20)::after {
     content: "a";
+    font-size: larger;
 }
 
-div:nth-of-type(30)::before {
+div:nth-of-type(30)::after {
     content: "b";
+    font-size: larger;
 }
 
-div:nth-of-type(40)::before {
+div:nth-of-type(40)::after {
     content: "c";
+    font-size: larger;
 }
 
-div:nth-of-type(50)::before {
+div:nth-of-type(50)::after {
     content: "d";
+    font-size: larger;
 }
 
-div:nth-of-type(60)::before {
+div:nth-of-type(60)::after {
     content: "e";
+    font-size: larger;
 }
 
 div:nth-of-type(29) {
@@ -249,7 +273,7 @@ div:nth-of-type(22) {
     width: 10%;
     height: 10%;
     background-size: calc(300vmin / 7);
-    background-position: 85% -50%;
+    background-position: 87% -50%;
 }
 
 div:nth-of-type(32) {
@@ -287,20 +311,4 @@ div:nth-of-type(52) {
     height: 10%;
     background-size: calc(300vmin / 7);
     background-position: -7% -60%;
-}
-
-
-
-
-
-
-div:nth-of-type(n+11):not(:nth-of-type(n+51))::after {
-    display: block;
-    outline: 1px solid;
-    content: '';
-    width: 10vmin;
-    height: 10vmin;
-    position: absolute;
-    left: 62.5vmin;
-    top: 52vmin;
 }
