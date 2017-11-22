@@ -2,7 +2,8 @@ div {
     width: 50%;
     height: 25px;
     background-color: #dcdcdc;
-    font-family: Arial;
+    font-family: monospace;
+    font-size: 1.5vmin;
 }
 
 .long {
@@ -14,9 +15,13 @@ div {
 
 mark {
     background-color: #dcdcdc;
-    font-family: Arial;
+    font-family: Monospace;
 }
 
 span {
     color: #5f9ea0;
+}
+
+.all {
+    width: 50%;
 }
