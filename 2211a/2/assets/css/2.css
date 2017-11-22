@@ -1,0 +1,22 @@
+div {
+    width: 50%;
+    height: 25px;
+    background-color: #dcdcdc;
+    font-family: Arial;
+}
+
+.long {
+    width: 50%;
+    overflow: auto;
+    height: 50px;
+    white-space: nowrap;
+}
+
+mark {
+    background-color: #dcdcdc;
+    font-family: Arial;
+}
+
+span {
+    color: #5f9ea0;
+}
