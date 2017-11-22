@@ -269,15 +269,7 @@ div:nth-of-type(8n+2):not(:nth-of-type(64)) {
 }
 
 
-div:nth-of-type(16) {
-    background-image: url(../img/chess.png);
-    background-repeat: no-repeat;
-    width: 10%;
-    height: 10%;
-    background-size: calc(300vmin / 7);
-    background-position: 88% 170%;
-}
-
+div:nth-of-type(16),
 div:nth-of-type(56) {
     background-image: url(../img/chess.png);
     background-repeat: no-repeat;
@@ -287,15 +279,8 @@ div:nth-of-type(56) {
     background-position: 88% 170%;
 }
 
-div:nth-of-type(8) {
-    background-image: url(../img/chess.png);
-    background-repeat: no-repeat;
-    width: 10%;
-    height: 10%;
-    background-size: calc(300vmin / 7);
-    background-position: 40% 160%;
-}
 
+div:nth-of-type(8),
 div:nth-of-type(64) {
     background-image: url(../img/chess.png);
     background-repeat: no-repeat;
@@ -304,6 +289,7 @@ div:nth-of-type(64) {
     background-size: calc(300vmin / 7);
     background-position: 40% 160%;
 }
+
 
 div:nth-of-type(8n+7):not(:nth-of-type(64)) {
     background-image: url(../img/chess.png);
@@ -314,15 +300,7 @@ div:nth-of-type(8n+7):not(:nth-of-type(64)) {
     background-position: 110% 170%;
 }
 
-div:nth-of-type(24) {
-    background-image: url(../img/chess.png);
-    background-repeat: no-repeat;
-    width: 10%;
-    height: 10%;
-    background-size: calc(300vmin / 7);
-    background-position: 63% 160%;
-}
-
+div:nth-of-type(24),
 div:nth-of-type(48) {
     background-image: url(../img/chess.png);
     background-repeat: no-repeat;
@@ -350,15 +328,7 @@ div:nth-of-type(40) {
     background-position: -8% 160%;
 }
 
-div:nth-of-type(9) {
-    background-image: url(../img/chess.png);
-    background-repeat: no-repeat;
-    width: 10%;
-    height: 10%;
-    background-size: calc(300vmin / 7);
-    background-position: 87% -50%;
-}
-
+div:nth-of-type(9),
 div:nth-of-type(49) {
     background-image: url(../img/chess.png);
     background-repeat: no-repeat;
@@ -368,16 +338,9 @@ div:nth-of-type(49) {
     background-position: 87% -50%;
 }
 
-div:nth-of-type(41) {
-    background-image: url(../img/chess.png);
-    background-repeat: no-repeat;
-    width: 10%;
-    height: 10%;
-    background-size: calc(300vmin / 7);
-    background-position: 61% -60%;
-}
 
-div:nth-of-type(17) {
+div:nth-of-type(17),
+div:nth-of-type(41) {
     background-image: url(../img/chess.png);
     background-repeat: no-repeat;
     width: 10%;
