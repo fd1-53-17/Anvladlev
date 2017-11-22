@@ -268,6 +268,9 @@ div:nth-of-type(8n+2):not(:nth-of-type(64)) {
     background-position: 110% -60%;
 }
 
+div:nth-of-type(8n+2):not(:nth-of-type(64)):hover {
+    background-color: #ff0000;
+}
 
 div:nth-of-type(16),
 div:nth-of-type(56) {
@@ -277,6 +280,10 @@ div:nth-of-type(56) {
     height: 10%;
     background-size: calc(300vmin / 7);
     background-position: 88% 170%;
+}
+
+div:nth-of-type(16):hover {
+    background-color: #ff0000;
 }
 
 
@@ -300,6 +307,10 @@ div:nth-of-type(8n+7):not(:nth-of-type(64)) {
     background-position: 110% 170%;
 }
 
+div:nth-of-type(8n+7):not(:nth-of-type(64)):hover {
+    background-color: #ff0000;
+}
+
 div:nth-of-type(24),
 div:nth-of-type(48) {
     background-image: url(../img/chess.png);
@@ -310,6 +321,10 @@ div:nth-of-type(48) {
     background-position: 63% 160%;
 }
 
+div:nth-of-type(48):hover {
+    background-color: #ff0000;
+}
+
 div:nth-of-type(32) {
     background-image: url(../img/chess.png);
     background-repeat: no-repeat;
@@ -317,6 +332,12 @@ div:nth-of-type(32) {
     height: 10%;
     background-size: calc(300vmin / 7);
     background-position: 17% 160%;
+
+}
+
+div:nth-of-type(32):hover {
+    background-color: #ff0000;
+
 }
 
 div:nth-of-type(40) {
