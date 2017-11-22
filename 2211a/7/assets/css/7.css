@@ -1,0 +1,38 @@
+.wrapper {
+    width: 75vmin;
+
+}
+
+p {
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 3.5vmin;
+    margin-top: -0.5vmin;
+
+}
+
+.red {
+    color: red;
+    font-size: 4vmin;
+}
+
+.big-red {
+    color: red;
+    font-size: 6.5vmin;
+    margin-top: -0.5vmin;
+}
+
+.skidki {
+    width: 25vmin;
+    height: 13vmin;
+    border: 1px dashed;
+    border-radius: 10%;
+    border-color: red;
+    position: absolute;
+    left: 80vmin;
+    top: 1vmin;
+    font-family: Helvetica, sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 3.5vmin;
+}
