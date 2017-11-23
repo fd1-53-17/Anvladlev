@@ -1,0 +1,74 @@
+.wrapper {
+    padding: 5vmin;
+    background: #d3d3d3;
+    width: 72vmin;
+    height: 85vmin;
+    padding-left: 7vmin;
+}
+
+.font {
+    width: 65vmin;
+    height: 7vmin;
+    background: #a9a9a9;
+    font-family: Helvetica, sans-serif, franklin gothic medium;
+    font-stretch: ultra-condensed;
+    color: #ffffff;
+    font-size: 5vmin;
+    padding-left: 5vmin;
+    padding-top: 3vmin;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    font-family: Helvetica, sans-serif;
+    float: left;
+    padding-left: 0;
+}
+
+li {
+    width: 28vmin;
+    color: #4b0082;
+    margin: 2vmin;
+    border-bottom: 1px solid #4b0082;
+}
+
+.halochka:before {
+    font-family: "untitled-font-1";
+    content: "a ";
+}
+
+.guetion:after {
+    font-family: "untitled-font-1";
+    content: "   d";
+}
+
+.purple {
+
+    color: #ffffff;
+    background-color: #9932cc;
+    border-radius: 7%;
+    border: 3px solid #9932cc;
+
+}
+
+.black {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.two {
+    display: inline-block;
+    float: right;
+}
+
+.three {
+    display: inline-block;
+    float: left;
+}
+
+.four {
+    display: inline-block;
+    float: right;
+
+}

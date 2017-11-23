@@ -23,7 +23,7 @@
     background: #daa520;
     border-radius: 7%;
     position: absolute;
-    top: 20vmin;
+    top: 18vmin;
     z-index: 40;
 }
 
@@ -39,7 +39,7 @@
 }
 
 .file1:hover {
-    transform: translateX(70px);
+    transform: translateX(180px);
 }
 
 .red {
@@ -121,7 +121,7 @@
     background: #f5f5f5;
     border-radius: 5%;
     position: absolute;
-    top: 7vmin;
+    top: 5.5vmin;
     left: 1vmin;
     transform: scale(.90);
     z-index: 20

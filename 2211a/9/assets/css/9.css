@@ -13,7 +13,7 @@
     font-size: 4.5vmin;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
-    padding: 2vmin;
+    padding: 1.5vmin;
 
 }
 
@@ -48,6 +48,7 @@
     font-weight: bolder;
     padding: 1vmin;
     font-size: 3vmin;
+    font-family: arial;
 }
 
 table {
