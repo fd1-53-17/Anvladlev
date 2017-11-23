@@ -1,0 +1,36 @@
+.square {
+    width: 50vmin;
+    height: 50vmin;
+    background-color: #ff1493;
+    position: absolute;
+}
+
+.circle {
+    width: 30vmin;
+    height: 30vmin;
+    border-radius: 50%;
+    background: #ffa500;
+    position: relative;
+    top: 10vmin;
+    left: 10vmin;
+}
+
+.krest {
+    background: #ffffff;
+    width: 1.5vmin;
+    height: 10vmin;
+    position: relative;
+    left: 24vmin;
+    top: -10vmin;
+}
+
+.krest:after {
+    content: "";
+    height: 1.5vmin;
+    width: 10vmin;
+    background: #ffffff;
+    position: absolute;
+    left: -4vmin;
+    top: 4.5vmin;
+
+}
