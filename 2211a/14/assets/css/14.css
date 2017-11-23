@@ -1,0 +1,152 @@
+div {
+    position: relative;
+    display: inline-block;
+    margin: 10vmin;
+}
+
+.circle {
+
+    width: 42.2vmin;
+    height: 42.2vmin;
+    border: 2vmin solid black;
+    border-color: black;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+    position: absolute;
+}
+
+.block {
+    width: 30vmin;
+    height: 18vmin;
+    background-color: #ffffff;
+    left: 9.3vmin;
+    top: 9.2vmin;
+    position: absolute;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+
+}
+
+.smile {
+    width: 25vmin;
+    height: 25vmin;
+    border: 2vmin solid black;
+    border-color: black;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+    position: relative;
+    top: 8.2vmin;
+    left: 8.2vmin;
+}
+
+.eye1 {
+    width: 5vmin;
+    height: 5vmin;
+    border: 2vmin solid black;
+    border-color: black;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 15vmin;
+    left: 13vmin;
+
+}
+
+.eye2 {
+    width: 5vmin;
+    height: 5vmin;
+    border: 2vmin solid black;
+    border-color: black;
+    border-radius: 50%;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 15vmin;
+    left: 28vmin;
+
+}
+
+.block1 {
+    width: 9vmin;
+    height: 4vmin;
+    position: absolute;
+    top: 20vmin;
+    left: 13vmin;
+    background-color: #ffffff;
+}
+
+.block2 {
+    width: 9vmin;
+    height: 4vmin;
+    position: absolute;
+    top: 20vmin;
+    left: 28vmin;
+    background-color: #ffffff;
+}
+
+.one {
+    width: 2vmin;
+    height: 1vmin;
+    background-color: black;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 19.99vmin;
+    left: 19.95vmin;
+
+}
+
+.two {
+    width: 2vmin;
+    height: 1vmin;
+    background-color: black;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 19.9vmin;
+    left: 12.99vmin;
+
+}
+
+.three {
+    width: 2vmin;
+    height: 1vmin;
+    background-color: black;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 19.9vmin;
+    left: 27.99vmin;
+}
+
+.four {
+    width: 2vmin;
+    height: 1vmin;
+    background-color: black;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    position: absolute;
+    top: 19.99vmin;
+    left: 34.99vmin;
+}
+
+.five {
+    width: 2vmin;
+    height: 2vmin;
+    background-color: black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: absolute;
+    top: 25.5vmin;
+    left: 36.2vmin;
+}
+
+.six {
+    width: 2vmin;
+    height: 2vmin;
+    background-color: black;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    position: absolute;
+    top: 25.5vmin;
+    left: 9.99vmin;
+}
