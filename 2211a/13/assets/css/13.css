@@ -1,0 +1,132 @@
+.papka {
+    position: absolute;
+}
+
+.papka1 {
+    height: 3vmin;
+    width: 15vmin;
+    background: #b8860b;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+.papka2 {
+    height: 25vmin;
+    width: 45vmin;
+    background: #b8860b;
+    border-top-right-radius: 7%;
+}
+
+.papka3 {
+    height: 30vmin;
+    width: 45vmin;
+    background: #daa520;
+    border-radius: 7%;
+    position: absolute;
+    top: 18vmin;
+    z-index: 40;
+}
+
+.file1 {
+    height: 30vmin;
+    width: 45vmin;
+    background: #f5f5f5;
+    border-radius: 5%;
+    position: absolute;
+    top: 12vmin;
+    left: 1vmin;
+    z-index: 30
+}
+
+.file1:hover {
+    transform: translateX(180px);
+}
+
+.red {
+    margin-top: 1vmin;
+    margin-left: 1vmin;
+    height: 2vmin;
+    width: 2vmin;
+    background: red;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.yellow {
+    height: 2vmin;
+    width: 2vmin;
+    background: yellow;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.green {
+    height: 2vmin;
+    width: 2vmin;
+    background: green;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.grey1 {
+    height: 1vmin;
+    width: 3vmin;
+    background: #a9a9a9;
+    float: right;
+    margin-top: 1vmin;
+    margin-right: 2vmin;
+}
+
+.grey2 {
+    height: 1vmin;
+    width: 3vmin;
+    background: #a9a9a9;
+    float: right;
+    margin-top: 3vmin;
+    margin-right: -3vmin;
+}
+
+.grey3 {
+    height: 1vmin;
+    width: 3vmin;
+    background: #a9a9a9;
+    float: right;
+    height: 1vmin;
+    width: 3vmin;
+    background: #a9a9a9;
+    float: right;
+    margin-top: 5vmin;
+    margin-right: -3vmin;
+}
+
+.file3 {
+    height: 30vmin;
+    width: 45vmin;
+    background: #f5f5f5;
+    border-radius: 5%;
+    position: absolute;
+    top: 2vmin;
+    left: 1vmin;
+    transform: scale(.80);
+    z-index: 10;
+}
+
+.file3:hover {
+    transform: translateX(70px);
+}
+
+.file2 {
+    height: 30vmin;
+    width: 45vmin;
+    background: #f5f5f5;
+    border-radius: 5%;
+    position: absolute;
+    top: 5.5vmin;
+    left: 1vmin;
+    transform: scale(.90);
+    z-index: 20
+}
+
+.file2:hover {
+    transform: translateX(70px);
+}

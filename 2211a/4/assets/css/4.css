@@ -1,0 +1,25 @@
+ol {
+    list-style: none;
+    text-align: center;
+    font-family: Arial;
+    border-left: 7px solid #d3d3d3;
+    border-right: 7px solid #d3d3d3;
+    width: 17%;
+    padding: 0;
+    color: #191970;
+    font-weight: bolder;
+    padding-top: 7px;
+    padding-bottom: 7px;
+
+
+}
+
+li {
+    border: 1px solid #d3d3d3;
+    padding: 10px;
+}
+
+ol li:hover {
+    background: #1e90ff;
+    color: #ffffff;
+}

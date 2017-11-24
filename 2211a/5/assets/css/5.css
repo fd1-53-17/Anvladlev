@@ -1,0 +1,53 @@
+.big {
+    height: 50vmin;
+    width: 70vmin;
+    background-color: #5f9ea0;
+    padding: 20px;
+}
+
+.border {
+    border: 2px solid black;
+    clear: both;
+    height: 50vmin;
+    width: 70vmin;
+}
+
+.red {
+    height: 10vmin;
+    width: 12vmin;
+    background-color: red;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 10vmin;
+    margin-top: 5vmin;
+}
+
+.green {
+    height: 25vmin;
+    width: 30vmin;
+    background-color: green;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 30vmin;
+    margin-top: 5vmin;
+}
+
+.blue {
+    height: 25vmin;
+    width: 12vmin;
+    background-color: blue;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 10vmin;
+    margin-top: 20vmin;
+}
+
+.yellow {
+    height: 10vmin;
+    width: 30vmin;
+    background-color: yellow;
+    border: 2px solid black;
+    position: absolute;
+    margin-left: 30vmin;
+    margin-top: 35vmin;
+}
