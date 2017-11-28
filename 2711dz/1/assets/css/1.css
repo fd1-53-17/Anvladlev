@@ -63,7 +63,7 @@ img {
     width: 30vw;
 }
 
-footer>div {
+footer {
     background-color: #87ceeb;
     bottom: 0;
     color: #191970;
@@ -71,11 +71,10 @@ footer>div {
     font-size: 4vh;
     font-weight: bolder;
     height: 7vh;
-    position: absolute;
     text-align: center;
     text-transform: uppercase;
     vertical-align: middle;
-    width: 100vw;
+    clear: both;
 }
 
 @media screen and (max-width: 320px) {
@@ -88,7 +87,7 @@ footer>div {
         height: 130%;
         margin: 0;
         padding: 0;
-        position: absolute;
+        position: relative;
         width: 100%;
     }
     img {
@@ -96,22 +95,15 @@ footer>div {
     }
 
     aside>div {
-        position: absolute;
-        top: 120%;
+        position: relative;
         width: 100%;
     }
     ul {
         margin-left: 4vw;
-        padding: 0;
-        width: 80%;
+        padding-left: 4vw;
+        width: 60%;
     }
     footer {
-        position: absolute;
-        top: 210%;
-        width: 100%;
-
-    }
-    footer div {
         font-size: 100%;
     }
 }
