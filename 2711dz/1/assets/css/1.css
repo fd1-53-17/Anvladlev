@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+    max-width: 1000px;
+    width: 100vw;
+}
+
+header {
+    background-color: #87ceeb;
+    color: #191970;
+    font-family: Arial;
+    font-size: 2vh;
+    height: 7vh;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+aside>div {
+    background-color: #ffd700;
+    display: inline-block;
+    float: left;
+    font-size: 4vh;
+    height: 86vh;
+    overflow: auto;
+    padding: 0.5vw;
+    width: 22vw;
+}
+
+ul {
+    margin-left: 4vw;
+    padding: 0;
+    width: 15vw;
+}
+
+content {
+    background-image: url(../img/football1.png);
+    background-position: right;
+    background-repeat: repeat-y;
+    display: inline-block;
+    float: right;
+    font-size: 3.5vh;
+    height: 84vh;
+    overflow: auto;
+    width: calc(100vw - 28vw);
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 3vh;
+    margin: 15px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+img {
+    float: left;
+    height: 40vh;
+    margin: 10px;
+    width: 30vw;
+}
+
+footer>div {
+    background-color: #87ceeb;
+    bottom: 0;
+    color: #191970;
+    font-family: Arial;
+    font-size: 4vh;
+    font-weight: bolder;
+    height: 7vh;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+    width: 100vw;
+}
+
+@media screen and (max-width: 320px) {
+    header {
+        font-size: 50%;
+        width: 100%;
+    }
+    content {
+        background: none;
+        height: 130%;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 100%;
+    }
+    img {
+        display: none;
+    }
+
+    aside>div {
+        position: absolute;
+        top: 120%;
+        width: 100%;
+    }
+    ul {
+        margin-left: 4vw;
+        padding: 0;
+        width: 80%;
+    }
+    footer {
+        position: absolute;
+        top: 210%;
+        width: 100%;
+
+    }
+    footer div {
+        font-size: 100%;
+    }
+}
