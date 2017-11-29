@@ -1,0 +1,19 @@
+[type=radio]:checked~label:nth-of-type(1) {
+    background-color: green;
+}
+
+
+
+figcaption {
+    font-family: Arial, serif;
+    font-weight: bold;
+    font-size: 2.5vw;
+    opacity: 0;
+    transition: transform 2s;
+    display:inline-block;
+}
+
+img:hover~figcaption {
+    opacity: 1;
+    transform: translateX(-40px);
+}
