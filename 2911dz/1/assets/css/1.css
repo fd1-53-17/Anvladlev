@@ -1,0 +1,52 @@
+ul {
+  list-style: none;
+  border: 1px solid #90ee90;
+  width: 100px;
+  padding-left: 0px;
+}
+
+.menu-list2 {
+  border: 1px solid #87ceeb;
+  width: 100px;
+  position: absolute;
+  left: 110px;
+}
+
+[type=checkbox] {
+  display: none;
+}
+
+#menu~ul {
+  display: none;
+}
+
+
+#menu:not(:checked)~label[for=menu]:nth-of-type(2) {
+  display: none;
+}
+
+#menu:checked+label[for=menu] {
+  display: none;
+}
+
+#menu:checked~ul,
+#menu2:checked~.menu-list2 {
+  display: block;
+
+}
+
+.menu-list2 {
+  display: none;
+}
+
+li:hover {
+  background-color: #90ee90;
+}
+
+.menu-list2 li:hover {
+  background-color: #87ceeb;
+}
+
+span {
+  float: right;
+}
