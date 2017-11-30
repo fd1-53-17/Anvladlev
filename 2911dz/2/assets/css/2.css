@@ -17,6 +17,10 @@ label {
 #breakfast:checked~.lunch,
 #breakfast:checked~.dinner {
     display: none;
+    transform: rotate(30deg);
+}
+.breakfast {
+    transition: transform 2s;
 }
 
 #lunch:checked~.breakfast,
