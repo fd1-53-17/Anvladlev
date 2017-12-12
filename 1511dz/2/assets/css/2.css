@@ -67,9 +67,9 @@ footer {
 
 .football {
     float: left;
-    width: 565px;
+    width: 560px;
     height: 300px;
-
+overflow: hidden;
     margin-top: -30px;
 }
 
