@@ -35,7 +35,9 @@ main {
 }
 
 aside {
+    display: flex;
     flex-basis: 8em;
+    flex-direction: column;
     justify-content: space-between;
 }
 
@@ -43,10 +45,10 @@ article {
     display: flex;
     flex-direction: column;
     flex-basis: calc(80% - 15px);
+
 }
 
 aside>div {
-    flex-direction: column;
     margin: 5px;
     height: 5em;
     width: 7em;
@@ -55,11 +57,8 @@ aside>div {
 }
 
 aside>div:nth-of-type(1) {
-    flex-grow: 2;
-}
+    height: 14em;
 
-aside>div:nth-of-type(2) {
-    flex-grow: 0;
 }
 
 article>div:nth-of-type(1) {
@@ -67,7 +66,6 @@ article>div:nth-of-type(1) {
     height: 7em;
     width: 100%;
     border: 1px solid black;
-    justify-content: space-between;
     background-color: #d3d3d3;
 }
 
@@ -77,15 +75,13 @@ ul {
     flex-direction: row;
     list-style: none;
     flex-wrap: wrap;
-
 }
 
 li {
     margin: 5px;
     height: 5em;
-    width: 15%;
+    width: 17%;
     border: 1px solid black;
-    justify-content: flex-start;
     background-color: #d3d3d3;
 
 }
@@ -93,13 +89,23 @@ li {
 article>div:nth-of-type(2),
 article>div:nth-of-type(3) {
     flex-direction: row;
+    flex-wrap: wrap;
     margin: 5px;
-    height: 5em;
+    height: 7em;
     width: 40%;
     border: 1px solid black;
-    justify-content: space-between;
     background-color: #d3d3d3;
 }
+
+article>div:nth-of-type(2) {
+    align-self: flex-end;
+
+}
+
+article>div:nth-of-type(3) {
+    align-self: flex-start;
+}
+
 
 footer {
     display: flex;
@@ -108,8 +114,8 @@ footer {
 footer>div {
     flex-direction: row;
     margin: 5px;
-    height: 4em;
-    width: 5em;
+    height: 5em;
+    width: 4em;
     border: 1px solid black;
     justify-content: space-around;
     background-color: #789;
@@ -122,8 +128,19 @@ footer>div:nth-of-type(2) {
 
 footer>div:nth-of-type(3),
 footer>div:nth-of-type(4) {
-    flex-direction: row;
-    flex-grow: 0;
+    display: flex-inline;
+    flex-direction: column;
+    height: 2em;
+    width: 6em;
+}
+
+footer>div:nth-of-type(3) {
+    align-self: flex-end;
+}
+
+footer>div:nth-of-type(4) {
+    align-self: flex-start;
+
 }
 
 
