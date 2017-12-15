@@ -55,7 +55,7 @@ div:nth-of-type(99)::before {
 }
 
 div:nth-of-type(10n+1):not(:nth-of-type(1)):not(:nth-of-type(91)):after {
-    counter-increment: sleft+1;
+    counter-increment: sleft;
     content: counter(sleft);
 }
 
