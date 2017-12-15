@@ -1,0 +1,141 @@
+.ball {
+    height: 100px;
+    width: 100px;
+    background-color: #87ceeb;
+    border: 3px solid #000;
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+@keyframes ball {
+    0% {
+        top: 10px;
+        left: 10px;
+    }
+    10% {
+        top: 200px;
+        left: 50px;
+    }
+    20% {
+        top: 10px;
+        left: 100px;
+    }
+    30% {
+        top: 200px;
+        left: 150px;
+    }
+    40% {
+        top: 0px;
+        left: 200px;
+    }
+    50% {
+        top: 200px;
+        left: 250px;
+    }
+    60% {
+        top: 10px;
+        left: 300px;
+    }
+    70% {
+        top: 200px;
+        left: 350px;
+    }
+    80% {
+        top: 10px;
+        left: 400px;
+    }
+    90% {
+        top: 200px;
+        left: 450px;
+    }
+    100% {
+        top: 10px;
+        left: 500px;
+    }
+
+}
+
+body:hover .ball {
+    animation: ball 10s ease;
+}
+
+.shadow {
+    height: 20px;
+    width: 100px;
+    background-color: #a9a9a9;
+    border-radius: 50%;
+    position: relative;
+    top: 200px;
+    left: 5px;
+}
+
+@keyframes shadow {
+    0% {
+        height: 60px;
+        width: 120px;
+        left: 5px;
+        box-shadow: 0 0 60px #000;
+    }
+    10% {
+        height: 20px;
+        left: 45px;
+        box-shadow: 0 0 2px #000;
+    }
+    20% {
+        height: 60px;
+        width: 120px;
+        left: 95px;
+        box-shadow: 0 0 60px #000;
+    }
+    30% {
+        height: 20px;
+        left: 145px;
+        box-shadow: 0 0 2px #000;
+    }
+    40% {
+        height: 60px;
+        width: 120px;
+        left: 195px;
+        box-shadow: 0 0 60px #000;
+    }
+    50% {
+        height: 20px;
+        left: 245px;
+        box-shadow: 0 0 2px #000;
+    }
+    60% {
+        height: 60px;
+        width: 120px;
+        left: 295px;
+        box-shadow: 0 0 60px #000;
+    }
+    70% {
+        height: 20px;
+        left: 345px;
+        box-shadow: 0 0 2px #000;
+    }
+    80% {
+        height: 60px;
+        width: 120px;
+        left: 395px;
+        box-shadow: 0 0 60px #000;
+    }
+    90% {
+        height: 20px;
+        left: 445px;
+        box-shadow: 0 0 2px #000;
+    }
+    100% {
+        height: 60px;
+        width: 120px;
+        left: 495px;
+        box-shadow: 0 0 60px #000;
+    }
+
+}
+
+body:hover .shadow {
+    animation: shadow 10s ease;
+}
