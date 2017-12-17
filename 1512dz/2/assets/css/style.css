@@ -27,15 +27,15 @@ g:hover #svg_13 {
 
 @keyframes home {
     from {
-        height: 151;
-        width: 160.9;
+        height: 151px;
+        width: 160.999991px;
     }
     to {
-        height: 180;
-        width: 190;
+        height: 200px;
+        width: 230px;
     }
 }
 
-g:hover #svg_10 {
+g:hover #svg_10{
     animation: home 2s ease;
 }
