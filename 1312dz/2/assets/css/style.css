@@ -1,0 +1,77 @@
+.chessTable {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    counter-reset: sleft sright;
+}
+
+div {
+    outline: 1px solid black;
+    width: 50px;
+    height: 50px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+div:nth-of-type(2)::before,
+div:nth-of-type(92)::before {
+    content: 'a';
+}
+
+div:nth-of-type(3)::before,
+div:nth-of-type(93)::before {
+    content: 'b';
+}
+
+div:nth-of-type(4)::before,
+div:nth-of-type(94)::before {
+    content: 'c';
+}
+
+div:nth-of-type(5)::before,
+div:nth-of-type(95)::before {
+    content: 'd';
+}
+
+div:nth-of-type(6)::before,
+div:nth-of-type(96)::before {
+    content: 'e';
+}
+
+div:nth-of-type(7)::before,
+div:nth-of-type(97)::before {
+    content: 'f';
+}
+
+div:nth-of-type(8)::before,
+div:nth-of-type(98)::before {
+    content: 'g';
+}
+
+div:nth-of-type(9)::before,
+div:nth-of-type(99)::before {
+    content: 'h';
+}
+
+div:nth-of-type(10n+1):not(:nth-of-type(1)):not(:nth-of-type(91)):after {
+    counter-increment: sleft;
+    content: counter(sleft);
+}
+
+div:nth-of-type(10n):not(:nth-of-type(10)):not(:nth-of-type(100)):after {
+    counter-increment: sright;
+    content: counter(sright);
+}
+
+
+div:nth-of-type(10n+2):not(:nth-of-type(20n+2)):not(:nth-of-type(92)),
+div:nth-of-type(10n+4):not(:nth-of-type(20n+4)):not(:nth-of-type(94)),
+div:nth-of-type(10n+6):not(:nth-of-type(20n+6)):not(:nth-of-type(96)),
+div:nth-of-type(10n+8):not(:nth-of-type(20n+8)):not(:nth-of-type(98)),
+div:nth-of-type(20n+3):not(:nth-of-type(3)),
+div:nth-of-type(20n+5):not(:nth-of-type(5)),
+div:nth-of-type(20n+7):not(:nth-of-type(7)),
+div:nth-of-type(20n+9):not(:nth-of-type(9)) {
+    background-color: black;
+}

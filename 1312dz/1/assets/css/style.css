@@ -1,0 +1,152 @@
+.wrapper {
+    width: 100%;
+
+}
+
+header {
+    display: flex;
+}
+
+header>div {
+    flex-direction: row;
+    margin: 5px;
+    height: 4em;
+    width: 5em;
+    border: 1px solid black;
+    justify-content: space-around;
+    background-color: #789;
+}
+
+header>div:nth-of-type(1) {
+    flex-grow: 0;
+}
+
+header>div:nth-of-type(2) {
+    flex-grow: 1;
+}
+
+header>div:nth-of-type(3) {
+    flex-grow: 2;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    display: flex;
+    flex-basis: 8em;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    flex-basis: calc(80% - 15px);
+
+}
+
+aside>div {
+    margin: 5px;
+    height: 5em;
+    width: 7em;
+    border: 1px solid black;
+    background-color: #789;
+}
+
+aside>div:nth-of-type(1) {
+    height: 14em;
+
+}
+
+article>div:nth-of-type(1) {
+    margin: 5px;
+    height: 7em;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #d3d3d3;
+}
+
+ul {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+li {
+    margin: 5px;
+    height: 5em;
+    width: 17%;
+    border: 1px solid black;
+    background-color: #d3d3d3;
+
+}
+
+article>div:nth-of-type(2),
+article>div:nth-of-type(3) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 5px;
+    height: 7em;
+    width: 40%;
+    border: 1px solid black;
+    background-color: #d3d3d3;
+}
+
+article>div:nth-of-type(2) {
+    align-self: flex-end;
+
+}
+
+article>div:nth-of-type(3) {
+    align-self: flex-start;
+}
+
+
+footer {
+    display: flex;
+}
+
+footer>div {
+    flex-direction: row;
+    margin: 5px;
+    height: 5em;
+    width: 4em;
+    border: 1px solid black;
+    justify-content: space-around;
+    background-color: #789;
+}
+
+footer>div:nth-of-type(1),
+footer>div:nth-of-type(2) {
+    flex-grow: 2;
+}
+
+footer>div:nth-of-type(3),
+footer>div:nth-of-type(4) {
+    display: flex-inline;
+    flex-direction: column;
+    height: 2em;
+    width: 6em;
+}
+
+footer>div:nth-of-type(3) {
+    align-self: flex-end;
+}
+
+footer>div:nth-of-type(4) {
+    align-self: flex-start;
+
+}
+
+
+
+@media screen and (min-width:1000px) {
+    .wrapper {
+        max-width: 50%;
+    }
+}
