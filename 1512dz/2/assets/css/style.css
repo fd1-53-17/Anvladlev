@@ -1,0 +1,41 @@
+@keyframes door {
+    from {
+        fill: #FFFF91;
+    }
+    to {
+        fill: #000;
+    }
+
+}
+
+g:hover #svg_14 {
+    animation: door 2s ease;
+}
+
+@keyframes window {
+    from {
+        fill: #845335;
+    }
+    to {
+        fill: #00008b;
+    }
+}
+
+g:hover #svg_13 {
+    animation: window 2s ease;
+}
+
+@keyframes home {
+    from {
+        height: 151px;
+        width: 160.999991px;
+    }
+    to {
+        height: 200px;
+        width: 230px;
+    }
+}
+
+g:hover #svg_10{
+    animation: home 2s ease;
+}
