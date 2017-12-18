@@ -1,0 +1,54 @@
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    color: #000;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+}
+
+#square {
+    width: 120px;
+    height: 80px;
+    background-color: #000;
+}
+
+#triangle {
+    border-bottom: 75px solid rgba(0%, 28%, 0%, 0);
+    border-top: 75px solid rgba(0%, 28%, 0%, 0);
+    border-right: 75px solid rgba(0%, 28%, 0%, 0);
+    border-left: 100px solid rgba(0%, 28%, 0%, 1);
+}
+
+#circle:target {
+    display: block;
+}
+
+#triangle:not(target),
+#square:not(target) {
+    display: none;
+}
+
+#triangle:target {
+    display: block;
+}
+
+#circle:not(target),
+#square:not(target) {
+    display: none;
+}
+
+#square:target {
+    display: block;
+}
+
+#triangle:not(target),
+#circle:not(target) {
+    display: none;
+}
