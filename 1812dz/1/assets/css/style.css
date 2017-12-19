@@ -53,9 +53,9 @@ li {
     display: none;
 }
 
-:not(target)~ #circle{ 
+:not(target)~ #triangle{ 
     display: block;
 }
-:target~ #circle{ 
+:target~#triangle{ 
     display: none;
 }
