@@ -52,7 +52,10 @@ li {
 #circle:not(target) {
     display: none;
 }
- 
-#square:not(target)~div, #circle:not(target)~div  {
+
+:not(target)~ #circle{ 
     display: block;
+}
+:target~ #circle{ 
+    display: none;
 }
